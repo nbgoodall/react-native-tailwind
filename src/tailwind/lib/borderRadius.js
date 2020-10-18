@@ -31,6 +31,4 @@ Object.entries(config.theme.borderRadius).forEach(([key, val]) => {
   styles[`rounded-tl${suffix}`] = { borderTopLeftRadius: value };
 });
 
-console.log({ styles });
-
 export default styles;

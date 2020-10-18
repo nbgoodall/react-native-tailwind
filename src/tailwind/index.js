@@ -6,6 +6,7 @@ import position from "./lib/position";
 import spacing from "./lib/spacing";
 import width from "./lib/width";
 import flex from "./lib/flex";
+import shadow from "./lib/shadow";
 import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
@@ -17,6 +18,7 @@ export default StyleSheet.create({
     display: "none",
   },
   ...flex,
+  ...shadow,
   "font-sans": {
     fontFamily:
       "system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
