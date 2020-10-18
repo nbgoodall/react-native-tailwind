@@ -7,6 +7,7 @@ import spacing from "./lib/spacing";
 import width from "./lib/width";
 import flex from "./lib/flex";
 import shadow from "./lib/shadow";
+import overflow from "./lib/overflow";
 import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
@@ -19,6 +20,7 @@ export default StyleSheet.create({
   },
   ...flex,
   ...shadow,
+  ...overflow,
   "font-sans": {
     fontFamily:
       "system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
